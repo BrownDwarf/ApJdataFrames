@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 *.tar.gz
-data/DwarfArchives/spectra
+data/DwarfArchives/
 
 
 
