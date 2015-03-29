@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 *.tar.gz
 data/DwarfArchives/
+data/Luhman_priv_comm
 
 
 
