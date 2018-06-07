@@ -1,0 +1,66 @@
+Title: Poking the Beehive from Space: K2 Rotation Periods for Praesepe 
+Authors: Douglas S.T., Agueros M.A., Covey K.R., Kraus A.
+Table: Praesepe members with discrepant Prot measurements
+================================================================================
+Byte-by-byte Description of file: apjaa6e52t1_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units Label    Explanations
+--------------------------------------------------------------------------------
+   1-  7 A7     ---   NAME         Literature name (1)
+   9- 17 I9     ---   EPIC         EPIC identifier
+  19- 23 F5.2   d     PTF-Prot     Rotational Period from Agueros et al. 
+                                     (2011ApJ...740..110A) (2)
+  25- 28 F4.2   d     SWASP-Prot   Rotational Period from Delorme et al. 
+                                     (2011MNRAS.413.2218D) (2)
+  30- 33 F4.2   d     Scholz-Prot  Rotational Period from Scholz et al. 
+                                     (2007MNRAS.381.1638S, 2011MNRAS.413.2595S) (2)
+  35- 39 F5.2   d     Kovacs-Prot  Rotational Period from Kovacs et al. 
+                                     (2014MNRAS.442.2081K) (2)
+  41- 46 F6.3   d     Prot-K2      K2 rotational period
+--------------------------------------------------------------------------------
+Note (1): Literature name given in Kraus & Hillenbrand (2007AJ....134.2340K).
+    All are standard SIMBAD identifiers, except AD####, which correspond to 
+    stars in Adams et al. (2002AJ....124.1570A).
+Note (2): Only cluster members with at least two Prot measurements that differ 
+    by at least 10% are shown here. An additional 215 cluster members have at 
+    least two Prot measurements that agree to within 10%.
+--------------------------------------------------------------------------------
+        211885995  9.20           18.13  9.16  
+AD 1508 212009427  1.55           11.22  1.56  
+AD 1512            9.64           19.15        
+AD 2182 211734093                 15.87 18.22  
+AD 2509 211970613            0.50        1.01  
+AD 2527 211939989            0.47        0.92  
+AD 2552 211989299 25.36                 12.84  
+AD 2802 211980450            0.51        1.02  
+AD 3128                 3.52      14.17        
+AD 3663 211773459                 17.91  5.94  
+HSHJ 15 211971354  9.36           17.46  8.26  
+HSHJ229 211938988            2.29        1.09  
+HSHJ421 211944193            0.28        0.48  
+HSHJ436 211988700            4.87        6.46  
+JS140   211930699                 13.35  6.74  
+JS298   211945362            4.29        9.16  
+JS313   211992053            5.76        5.08  
+JS379   212013132       4.27      12.78  2.13  
+JS418   211954582            3.27 12.75  3.19  
+JS432              2.09            8.36        
+JS503   212019252       9.95            11.26  
+JS547   211923502                 10.73 12.07  
+JS655   211896596                  5.85  2.97  
+JS719   211989620            1.21        0.88  
+KW 30   211995288       3.91       7.97  7.80  
+KW141   211940093       9.42       9.79  4.89  
+KW172   211975426                 12.22  6.26  
+KW256   211920022       4.80       9.76  4.67  
+KW267   211970147            5.68 11.89 11.60  
+KW301   211936906                  7.58  8.76  
+KW304   211996831                  8.79  4.37  
+KW336   211911846       8.89       9.12  4.30  
+KW367   211975006                  6.04  3.07  
+KW401   211909748       2.43       9.61  2.42  
+KW434   211935518                  8.27  4.18  
+KW533   211954532                  8.29  9.27  
+KW563   211970427  4.33      4.85        4.38  
+KW566   211988628                 15.25  7.95  
+KW570   211983725  4.18      4.27 16.81  4.22  
