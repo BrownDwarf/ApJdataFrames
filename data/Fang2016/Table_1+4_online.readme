@@ -1,0 +1,53 @@
+Title: Stellar activity with LAMOST - I. Spot configuration in Pleiades
+Authors: Fang X.-S., Zhao G., Zhao, J.-K., Chen Y.-Q., Yerra Bharat Kumar
+========================================================================
+Byte-by-byte Description of file: Table 1&4
+------------------------------------------------------------------------
+  Bytes  Format  Units  Label        Explanations
+------------------------------------------------------------------------
+   1-25   A25    ---    Object name  Identifier
+  27-34  F8.3    mag    Vmag         V-band magnitude (1)
+  36-43  F8.3    mag    rmag         r-band magnitude (1)
+  45-52  F8.3    mag    Icmag        Ic-band magnitude (1)
+  54-61  F8.3    mag    Kmag         Ks-band magnitude (1)
+  63-71  F9.2    K      T_VI         temperature from colour V-Ic (2)
+  73-81  F9.2    K      T_VK         temperature from colour V-Ks (2)
+  83-91  F9.2    K      T_rK         temperature from colour r-Ks (2)
+ 93-101  F9.2    K      T_IK         temperature from colour Ic-Ks (2)
+103-115 F13.8    day    Period       rotation period (3)
+117-124  F8.4    mag    A_r          r-band amplitude (3)
+126-134  F9.5    ---    R_o          Rossby number (3)
+136-143  F8.2    K      T_spec       temperature from spectral features
+145-152  F8.2    km/s   RV           radial velocity
+154-161  F8.4    0.1nm  EWHa         equivalent width of Halpha line
+163-170  F8.4    0.1nm  D_EWHa       extra EWHa relative to mean value
+                                      of inactive reference stars
+172-179  F8.4    ---    TiO2n        TiO2 strength (this work)
+181-188  F8.4    ---    D_TiO2n      extra TiO2n relative to mean value
+                                      of inactive reference stars
+190-197  F8.4    ---    TiO5n        TiO5 Strength (this work)
+199-206  F8.4    ---    D_TiO5n      extra TiO5n relative to mean value
+                                      of inactive reference stars
+208-215  F8.2    K      T_quiet      quiescent temperature
+217-224  F8.3    ---    fs1          spot filling factor from TiO2n
+226-233  F8.1    K      Tspot1       spot temperature from TiO2n (2)
+235-242  F8.3    ---    fs2          spot filling factor from TiO5n
+244-251  F8.1    K      Tspot2       spot temperature from TiO5n (2)
+253-257    I5    ---    multi        single/binary member or non-member
+    259    I1    ---    Flag1        sample 1 or sample 2  
+    261    I1    ---    Flag2        number of LAMOST observations
+    263    I1    ---    Flag3        the Colour or CMD used 
+    265    I1    ---    Flag4        T_spec from LAMOST pipeline or from 
+                                      this work
+    267    I1    ---    Flag5        RV from LAMOST pipeline or from
+                                      this work
+269-278 F10.6    deg    RAJ2000      RA(J2000)  
+280-289 F10.6    deg    DEJ2000      DEC(J2000)  
+------------------------------------------------------------------------
+Note (1): where a 99.0 indicates a null value. 
+Note (2): where a -9999.0 indicates a null value. 
+Note (3): where a -99.0 indicates a null value.
+========================================================================
+------------------------- -------- -------- -------- -------- --------- --------- --------- --------- ------------- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- ----- --------- ---------- ----------
+              Object name     Vmag     rmag    Icmag     Kmag      T_VI      T_VK      T_rK      T_IK        Period      A_r       R_o    Tspec       RV     EWHa   D_EWHa    TiO2n  D_TiO2n    TiO5n  D_TiO5n   Tquiet      fs1   Tspot1      fs2   Tspot2 multi      Flag    RAJ2000    DEJ2000
+------------------------- -------- -------- -------- -------- --------- --------- --------- --------- ------------- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- ----- --------- ---------- ----------
